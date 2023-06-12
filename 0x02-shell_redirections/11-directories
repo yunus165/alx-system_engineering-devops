@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -file d -not -name "." ".." | wc -l
+find . -file d -not -name "." | wc -l
