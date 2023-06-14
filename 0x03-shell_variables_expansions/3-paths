@@ -1,2 +1,2 @@
 #!/bin/bash
-find /usr/local/bin:/usr/bin:/bin -type d -printf |wc -l
+echo $PATH | tr ':' '\n' |wc -l
